@@ -1,18 +1,13 @@
 import type { NextPage } from 'next'
-import {ThemeProvider} from "styled-components";
-import Wrapper from '../components/Wrapper';
-import styles from '../styles/Home.module.css'
+import CarpoolSearch from '../components/CarpoolSearch';
 
-const theme = { font: "Calibri"}
+import Layout from '../components/Layout';
+
 const Home: NextPage = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <Wrapper>
-        <div>
-          Hello World!
-        </div>
-      </Wrapper>
-    </ThemeProvider>
+      <Layout>
+        <CarpoolSearch/>
+      </Layout>
  
   )
 }

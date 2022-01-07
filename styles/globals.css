@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'NotoSans-Regular';
+  src: url('../assets/fonts/NotoSans-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
